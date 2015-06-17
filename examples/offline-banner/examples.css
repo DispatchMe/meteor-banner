@@ -1,0 +1,24 @@
+/* CSS declarations go here */
+.banner {
+  padding: 10px;
+
+  color: #FFFFFF;
+}
+
+.banner-content--example {
+  background: #FFFFFF;
+
+  padding: 10px;
+}
+
+.banner--warning {
+  background-color: #e35757;
+}
+
+.banner--loading {
+  background-color: #f6a624;
+}
+
+.banner--success {
+  background-color: #19cb52;
+}

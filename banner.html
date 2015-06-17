@@ -1,0 +1,10 @@
+<template name="banner">
+  <div class="banner-container">
+    <div class="banner {{bannerClass}}">
+      <i class="banner-icon"></i>
+      <div class="banner-message">{{message}}</div>
+    </div>
+
+    <div class="banner-content {{contentClass}} {{#if isVisible}}banner--visible{{/if}}">{{> Template.contentBlock}}</div>
+  </div>
+</template>

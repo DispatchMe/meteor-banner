@@ -1,0 +1,17 @@
+<head>
+  <title>Offline Banner</title>
+</head>
+
+<body>
+  {{#offlineBanner contentClass='banner-content--example'}}
+    <h1>Welcome to Meteor Offline Banner!</h1>
+    <p>Go offline to watch the magic happen. If you are running this locally, restart your server to go offline!</p>
+  {{/offlineBanner}}
+</body>
+
+
+<template name="offlineBanner">
+  {{#banner id='offline'  bannerClass=statusClass contentClass=contentClass message=offlineMessage}}
+    {{> Template.contentBlock}}
+  {{/banner}}
+</template>
