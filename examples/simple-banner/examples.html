@@ -1,0 +1,33 @@
+<head>
+  <title>Simple Banner</title>
+</head>
+
+<body>
+  <div class="example--1">
+    {{#banner id='example1' message='This is a banner!' bannerClass='banner--example' contentClass='banner-content--example'}}
+      <h1>Welcome to Meteor Banner!</h1>
+
+      {{> example1}}
+    {{/banner}}
+  </div>
+
+  <div class="example--2">
+    {{#banner id='example2' message='This is another banner!' bannerClass='banner--example' contentClass='banner-content--example'}}
+      <h1>Welcome to Meteor Banner... Again!</h1>
+
+      {{> example2}}
+    {{/banner}}
+  </div>
+</body>
+
+<template name="example1">
+  <button class="show">Show Banner</button>
+  <button class="hide">Hide Banner</button>
+  <p>Banner is: {{isOpen}}</p>
+</template>
+
+<template name="example2">
+  <button class="show">Show Banner</button>
+  <button class="hide">Hide Banner</button>
+  <p>Banner is: {{isOpen}}</p>
+</template>

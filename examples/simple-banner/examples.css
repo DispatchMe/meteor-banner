@@ -1,0 +1,29 @@
+/* CSS declarations go here */
+.example--1 {
+  position: absolute;
+  bottom: 50%;
+
+  height: 50%;
+  width: 100%;
+}
+
+.example--2 {
+  position: absolute;
+  top: 50%;
+
+  height: 50%;
+  width: 100%;
+}
+
+.banner--example {
+  background: #FF0000;
+  color: #FFFFFF;
+
+  padding: 10px;
+}
+
+.banner-content--example {
+  background: #FFFFFF;
+
+  padding: 10px;
+}
