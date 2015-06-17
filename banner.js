@@ -19,9 +19,8 @@ Template.banner.onCreated(function () {
 
 Template.banner.onRendered(function () {
   var banner = banners[this.data.id];
-  if (!banner || banner.height) return;
+  if (!banner) return;
 
-  // Set the height of the banner once on the first rendered call
   banner.bannerEl = this.find('.banner');
   banner.conentEl = this.find('.banner-content');
   banner.height = $(banner.bannerEl).outerHeight();

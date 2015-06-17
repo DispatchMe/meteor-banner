@@ -1,6 +1,6 @@
 Package.describe({
   name: 'dispatch:banner',
-  version: '1.0.0',
+  version: '1.0.1',
   summary: 'Banner component for mobile'
 });
 
