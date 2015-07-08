@@ -22,7 +22,7 @@ Template.banner.onRendered(function () {
   if (!banner) return;
 
   banner.bannerEl = this.find('.banner');
-  banner.conentEl = this.find('.banner-content');
+  banner.contentEl = this.find('.banner-content');
   banner.height = $(banner.bannerEl).outerHeight();
 });
 
@@ -43,7 +43,7 @@ Template.banner.show = function (id, options) {
 
   options = options || {};
 
-  $(banner.conentEl).velocity({ top: banner.height }, {
+  $(banner.contentEl).velocity({ top: banner.height }, {
     duration: options.duration || 600,
     delay: options.delay || 0,
     easing:  options.easing || "easeInOutExpo",
@@ -76,7 +76,7 @@ Template.banner.hide = function (id, options) {
 
   options = options || {};
 
-  $(banner.conentEl).velocity({ top: 0 }, {
+  $(banner.contentEl).velocity({ top: 0 }, {
     duration: options.duration || 600,
     delay: options.delay || 0,
     easing: options.easing || "easeInOutExpo",
