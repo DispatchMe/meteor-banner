@@ -1,14 +1,12 @@
 /* CSS declarations go here */
 .banner {
   padding: 10px;
-
-  color: #FFFFFF;
+  color: white;
 }
 
 .banner-content--example {
-  background: #FFFFFF;
-
   padding: 10px;
+  background: white;
 }
 
 .banner--warning {
