@@ -1,27 +1,15 @@
-.banner-container {
+.banner, .banner-content {
   position: absolute;
   top: 0;
-  left: 0;
   right: 0;
   bottom: 0;
-}
-
-.banner-content {
-  position: absolute;
-  top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-
-  z-index: 200;
 }
 
 .banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
   z-index: 100;
+}
 
-  align-items: center;
+.banner-content {
+  z-index: 200;
 }

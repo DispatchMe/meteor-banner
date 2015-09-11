@@ -16,14 +16,12 @@
 }
 
 .banner--example {
-  background: #FF0000;
-  color: #FFFFFF;
-
   padding: 10px;
+  background: red;
+  color: white;
 }
 
 .banner-content--example {
-  background: #FFFFFF;
-
   padding: 10px;
+  background: white;
 }
