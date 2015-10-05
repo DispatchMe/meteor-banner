@@ -5,14 +5,17 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
+  api.versionsFrom('1.2');
+
   api.use([
     //core
-    'templating@1.1.1',
-    'tracker@1.0.7',
+    'jquery',
+    'templating',
+    'tracker',
 
     // atmosphere
     'percolate:velocityjs@1.2.1',
-    'raix:eventemitter@0.1.2'
+    'raix:eventemitter@0.1.3'
   ], 'web');
 
   api.addFiles([
